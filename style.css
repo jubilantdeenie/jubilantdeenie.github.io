@@ -11,7 +11,14 @@ h2 {
 }
 
 h3 {
-	font-family: 'Palanquin', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 6px 0 .5em;
+	font-size: 28px;
+}
+
+p {
+	font-size: 18px;
+	text-align: center;
 }
 
 body {
@@ -22,7 +29,7 @@ body {
 
 .banner {
 	margin-bottom: 2em;
-	text-align:right;	
+	text-align: right;	
 	border-bottom: 5px solid gray;
 }
 
@@ -48,16 +55,22 @@ img {
 
 
 .about {
-	font-size: 28px;
-	padding: 2em 0;
+	font-size: 26px;
 	line-height: 1.50;
 	padding: 2.5em;
-	background: #f7f7f7; 	
+	background: #f7f7f7; 
+	margin-top: 1.5em;	
+	text-align: left;
 }
 
 .row h2 {
 	font-size: 40px;
 	margin-left: 0;
+}
+
+h2.projects-title {
+	margin-top: 2em;
+	border-bottom: 5px solid gray;
 }
 
 .figure {
@@ -71,6 +84,20 @@ img {
 
 figcaption {
 	text-align: center;
+	font-size: 24px;
+}
+
+.row {
+	margin: 1em auto;
+}
+
+.project-container {
+	background: #f7f7f7;
+	margin-bottom: 3em;
+}
+
+.col-sm-4 {
+	padding: 2em 10px;
 }
 
 @media screen and (max-width: 650px)  {
